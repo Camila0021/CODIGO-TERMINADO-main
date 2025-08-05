@@ -434,6 +434,17 @@
   font-size: 19px;
   color: #fce956;
 }
+.section_five_img img {
+  width: 170px;
+  height: 160px;
+  object-fit: cover;
+  /* Para que no se deformen */
+  border-radius: 50%;
+  /* Esto hace que se vean circulares */
+  display: block;
+  border: 3px solid rgb(245, 222, 14);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 
 @media screen and (max-width: 767px) {
   .section_five_card_main {
